@@ -1,0 +1,221 @@
+@font-face {
+    src: url(../font/Mozzarella.ttf);
+    font-family: Mozzarella;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Mozzarella;
+    background-color: #eceded;
+}
+
+header {
+    border-bottom: 2px solid #d2aa5c;
+}
+
+.main-title {
+    color: #c89b0a;
+    font-size: 25px;
+    text-shadow: 1px 1px #111423;
+}
+
+.collapse {
+    float: right;
+}
+
+#trankLusionLink:hover {
+    color: black !important;
+    text-decoration: none;
+}
+
+#me {
+    float: left;
+    width: 300px;
+    border-radius: 150px;
+    margin: 50px;
+}
+
+.shutter {
+    width: 80px;
+    float: left;
+    margin-right: 60px;
+}
+
+.container .shutter {
+    width: 60px;
+    float: left;
+}
+
+.container .shutter-icon {
+    width: 40px;
+    margin: 0 90px;
+}
+
+.background .card-text {
+    margin: 0 50px;
+}
+
+#movie-description {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.background .nesz {
+    width: 60px;
+    float: right;
+    display: none;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.mainButton {
+    font-size: 20px !important;
+    letter-spacing: 1px;
+    color: #f8f9fa;
+    text-shadow: 1px 2px rgb(0, 0, 0);
+}
+
+.mainButton:hover {
+    color: #f8f9fa !important;
+}
+
+ul li a {
+    text-transform: uppercase;
+    color: #c89b0a;
+    font-size: 25px;
+    text-shadow: 1px 1px #111423;
+    width: 100%;
+}
+
+ul li a:hover {
+    color: #eceded;
+    background-color: #111423;
+}
+
+#about {
+    background-color: #111423;
+    color: #c89b0a;
+}
+
+div ul li:hover {
+    background-color: #111423;
+    color: #c89b0a;
+    cursor: pointer;
+}
+
+#footer {
+    color: #c89b0a;
+    background-color: #eceded;
+}
+
+#job-meeting p a {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    color: #c89b0a !important;
+    list-style: none !important;
+}
+
+.logo {
+    width: 50px;
+    padding: 0;
+    margin-left: 48%;
+}
+
+.fa {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    border: 5px solid white;
+    border-radius: 50px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: #c89b0a;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+#toTop {
+    border-radius: 50px;
+}
+
+@media (max-width: 767px) {
+    .navBarHead {
+        display: block;
+    }
+    ul li {
+        list-style-type: none;
+    }
+    ul li a {
+        text-decoration: underline;
+    }
+    .container #me {
+        margin: 0 auto;
+        width: 100%;
+        float: none;
+        border-radius: 350px;
+    }
+    .container h1 {
+        font-size: 50px;
+    }
+    main .shutter {
+        width: 30px;
+        float: none;
+        margin: 0 auto;
+    }
+    #service {
+        font-size: 28px;
+    }
+    .container .shutter {
+        width: 50px;
+    }
+    .container .shutter-icon {
+        width: 40px;
+        margin: 0;
+    }
+    .background .card-text {
+        margin: 0;
+    }
+    #movie-description {
+        font-size: 18px;
+    }
+    #job-meeting p a {
+        font-size: 25px;
+    }
+    .background .nesz {
+        display: none;
+    }
+    .job-header {
+        font-size: 30px;
+    }
+    #copyright {
+        font-size: 12px;
+    }
+}
